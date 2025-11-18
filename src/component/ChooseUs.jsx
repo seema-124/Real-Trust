@@ -5,7 +5,6 @@ export default function ChooseUs() {
     <>
     <section className="w-full flex items-center justify-center bg-white py-20 px-10">
       <div className="max-w-7xl w-full grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
-        {/* Left Text Section */}
         <div>
           <h2 className="text-3xl font-bold text-blue-600 mb-4">
             Not Your Average Realtor
@@ -15,9 +14,7 @@ export default function ChooseUs() {
           </p>
         </div>
 
-        {/* Right Images Section */}
         <div className="relative flex justify-center items-center">
-          {/* Large Center Image */}
           <div className="w-64 h-64 rounded-full overflow-hidden shadow-lg border-4 border-gray-100 z-10">
             <img
               src="/Ellipse 11.svg"
@@ -26,7 +23,6 @@ export default function ChooseUs() {
             />
           </div>
 
-          {/* Top Right Small Image */}
           <div className="absolute -top-6 right-6 w-40 h-40 rounded-full overflow-hidden border-4 border-gray-100 shadow-md">
             <img
               src="/Ellipse 12.svg"
@@ -35,7 +31,6 @@ export default function ChooseUs() {
             />
           </div>
 
-          {/* Bottom Right Small Image */}
           <div className="absolute -bottom-6 right-10 w-40 h-40 rounded-full overflow-hidden border-4 border-gray-100 shadow-md">
             <img
               src="/Ellipse 13.svg"
@@ -51,14 +46,11 @@ export default function ChooseUs() {
 
 
   <section className="w-full bg-white py-20 px-6 md:px-16">
-      {/* Title */}
       <h2 className="text-3xl font-bold text-center text-blue-600 mb-16">
         Why Choose Us?
       </h2>
 
-      {/* Features Section */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-12 text-center max-w-6xl mx-auto">
-        {/* Feature 1 */}
         <div className="flex flex-col items-center">
           <div className="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center mb-4">
             <span className="text-blue-600 text-2xl">
@@ -71,7 +63,6 @@ export default function ChooseUs() {
           </p>
         </div>
 
-        {/* Feature 2 */}
         <div className="flex flex-col items-center">
           <div className="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center mb-4">
             <span className="text-blue-500 text-2xl">
@@ -84,7 +75,6 @@ export default function ChooseUs() {
           </p>
         </div>
 
-        {/* Feature 3 */}
         <div className="flex flex-col items-center">
           <div className="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center mb-4">
             <span className="text-blue-600 text-2xl">
@@ -98,7 +88,6 @@ export default function ChooseUs() {
         </div>
       </div>
 
-      {/* Images Section */}
       <div className="mt-20 max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-4 relative">
         <div className="relative p-4 ml-24">
           <img src="/pexels-brett-sayles-2881232.svg" alt="House" className="rounded-xl shadow-lg h-[8rem]" />

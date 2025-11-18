@@ -2,14 +2,12 @@ import React from "react";
 
 const Hero = () => (
   <div className="relative w-full h-[90vh]">
-    {/* Background Image */}
     <img
       src="/young-couple-examining-blueprints-with-real-estate-agent-while-buying-new-home 1.svg"
       alt="Hero"
       className="absolute w-full h-full object-cover brightness-70 inset-0"
     />
 
-    {/* Content Container */}
     <div className="relative flex items-center justify-between h-full px-16 my-20">
       <div className="max-w-lg text-white z-10">
         <h1 className="text-6xl font-bold drop-shadow-xl">

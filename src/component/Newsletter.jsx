@@ -1,7 +1,6 @@
 export default function Hero() {
   return (
     <>
-      {/* HERO SECTION */}
       <section
         className="w-full h-full bg-cover bg-center flex items-center justify-center bg-black/60"
         style={{
@@ -21,10 +20,8 @@ export default function Hero() {
         </div>
       </section>
 
-      {/* NAV + SUBSCRIBE BAR */}
       <div className="w-full bg-blue-600 text-white py-5 flex flex-col md:flex-row md:items-center md:justify-between px-10 md:px-20 gap-4">
 
-        {/* NAV LINKS */}
         <div className="flex gap-6 text-sm mx-auto md:mx-0">
           <a href="#">Home</a>
           <a href="#">Services</a>
@@ -33,7 +30,6 @@ export default function Hero() {
           <a href="#">Contact</a>
         </div>
 
-        {/* SUBSCRIBE FORM */}
         <div className="flex items-center gap-2 mx-auto md:mx-0">
 
           <span className="whitespace-nowrap">Subscribe Us:</span>
